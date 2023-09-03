@@ -333,6 +333,7 @@ public class gestionProductos extends javax.swing.JInternalFrame {
             if(eliminar){
                 JOptionPane.showMessageDialog(this, "Producto borrado");
                 limpiar();
+                prodEncontrado=null;
                 jButton1.setEnabled(false);
             } else {
                 JOptionPane.showMessageDialog(this, "No se encontró");
